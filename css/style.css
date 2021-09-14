@@ -1,0 +1,54 @@
+.bola{
+  animation: bola 7s infinite alternate;
+}
+
+@keyframes bola {
+  0%{
+      transform: translateX(2);
+      
+  }
+
+  50%{
+      transform: translateX(50%);
+      
+  }
+
+}
+
+img{
+  margin: 40px;
+  width: 80px;
+  animation: bola2 3s infinite alternate;
+}
+
+@keyframes bola2 {
+  from{
+      transform: rotate(0) scale(1);
+  }
+
+  to{
+      transform: rotate(360deg) scale(2);
+  }
+}
+
+button{
+  background: rgb(23, 223, 89);
+  color: rgb(247, 225, 140);
+  border: none;
+  font-size: 1.2rem;
+  margin: 50px;
+  padding: 10px 50px;
+  transition: background 1s ease-in-out;
+}
+
+button:hover{
+  background: rgba(251, 111, 3, 0.911);
+  cursor: pointer;
+}
+
+
+button{
+  margin: 5% 0;
+  text-align: center;
+ 
+}
